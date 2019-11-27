@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(115, 225, 245);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: bold;
+  }
+  
+  #container{
+    width:1050px;
+    height: 1400px;
+    align-items: left;
+    margin-left: 140px;
+    margin-top: 30px;
+  }
+  
+  #inicio{
+      position: relative;
+      top: auto;
+      height: 60px;
+      line-height: 30px;
+      text-align:  center ;
+      width: 1010px;
+      padding: 20px;
+      background-color: black;
+      color: aliceblue;
+      font-size: large;
+  }
+  
+  #DivMenu{
+      position: relative;
+      top: auto;
+      height: 45px;
+      line-height: 50px;
+      text-align: center;
+      width: 1010px;
+      background-color:#DCDCDC;   
+      padding: 20px;
+      font-size: large;
+  }
+  #DivLateral{
+      position:relative;
+      border-width:2px;
+      width:680px;
+      height: 200px;
+      background-color: rgb(245, 239, 234);
+      float: left;
+  }
+  .nova{
+    margin-left: 20px;
+    width:400px;
+    border-color: solid 1px red;
+  }
+  #DivA{
+      position: relative;
+      border-width:2px;
+      width: 370px;
+      height: 200px;
+      left:0px;
+      background-color: rgb(245, 239, 234);
+      float: left;
+  }
+  
+  .group:before,
+  .group:after {
+      content: "";
+      display: table;
+  } 
+  .group:after {
+      clear: both;
+  }
+  .group {
+       zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+  }
